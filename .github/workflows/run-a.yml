@@ -6,7 +6,6 @@ jobs:
     runs-on: ubuntu-latest
     steps:
     - uses: actions/checkout@v4
-      uses: ./.github/actions
       id: hello
       with:
         MY_NAME: "Mona"
