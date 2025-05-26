@@ -11,6 +11,8 @@ inputs:
 runs:
     uses: "docker"
     image: "Dockerfile"
+    args:
+    - ${{ inputs.MY_NAME }}
 
 branding:
     icon: "mic"
